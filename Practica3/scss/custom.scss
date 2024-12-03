@@ -1,0 +1,16 @@
+// Espai per a modificar els estils definits a Bootstrap
+$primary: #D0BAF3;
+$warning: #800080;
+$info:    #4D0CB4;
+
+// Mixin para el gradiente
+@mixin light-gradient {
+    background: linear-gradient(to bottom right, #4776E6, #8E54E9);
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Usar el mixin en una clase
+.my-gradient-class {
+    @include light-gradient;
+}

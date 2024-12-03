@@ -1,0 +1,36 @@
+<!-- Página deshabilitada -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TomaNota</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="scss/custom.css" rel="stylesheet">
+</head>
+<!-- Recuadro del formulario -->
+<body class="fondo">
+  <div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="formulario bg-white rounded-3 shadow p-5 bg-white" style="width: 35%;">
+      <!-- Botón para salir del formulario -->
+      <a href="index.html" class="float-end"><img src="imagenes/salir.png" alt="salir"></a>
+      <!-- Logo -->
+      <a href="index.html">
+        <img class="logo img-fluid mx-auto d-block" src="imagenes/logo.png" alt="logo">
+      </a>
+        <h3 class="text-center">¿Has olvidado tu contraseña?</h3>
+        <p class="text-center mx-5">Introduce tu dirección de correo electrónico para poder restablecer tu contraseña</p>
+        <!-- Formulario de recuperación -->
+        <form action="#">
+            <!-- Correo electrónico -->
+            <div class="mb-4 mt-2">
+              <label for="email" class="form-label fw-lighter">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <!-- Botón de restablecer -->
+            <button type="submit" class="btn btn-primary text-white rounded-pill mx-auto mt-5 d-block w-100">Restablecer</button>
+        </form>
+    </div>
+  </div>
+</body>
+</html> 
